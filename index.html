@@ -10,36 +10,95 @@
 </head>
 
 <body>
-  <nav class="navigation">
-    <div class="logo">
-      <a href="#">
-        <img src="./assets/newzylogo.png" alt="logo newzy" width="100px">
-      </a>
-    </div>
-    <div class="nav-bar">
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Opinion</a></li>
-        <li><a href="#">Sport</a></li>
-        <li><a href="#">Culture</a></li>
-        <li><a href="#">Lifestyle</a></li>
-      </ul>
-    </div>
-    <div class="right-nav-bar">
-      <div class="search-icon">🔍</div>
-      <div class="selector">
-        <select name="language" id="language" class="nav-position">
-          <option value="en">EN</option>
-          <option value="ro">RO</option>
-          <option value="it">IT</option>
-          <option value="es">ES</option>
-        </select>
+  <header>
+    <nav class="navigation">
+      <div class="logo">
+        <a href="#">
+          <img src="./assets/newzylogo.png" alt="logo newzy" width="100px">
+        </a>
       </div>
-      <div class="login">
-        <a href="#">Account</a>
+      <div class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Lifestyle</a></li>
+        </ul>
       </div>
+      <div class="right-nav-bar">
+        <div class="search-icon">🔍</div>
+        <div class="selector">
+          <select name="language" id="language" class="nav-position">
+            <option value="en">EN</option>
+            <option value="ro">RO</option>
+            <option value="it">IT</option>
+            <option value="es">ES</option>
+          </select>
+        </div>
+        <div class="login">
+          <a href="#">Account</a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+    <div class="flex-headlines">
+      <h2 class="h-1">Headlines</h1>
+        <div></div>
+      <a href="#" class="view-all">View all</a>
     </div>
-  </nav>
+  </header>  
+    <div class="grid-container-headlines">
+      <div class="grid-item grid-item-1">
+        <img src="./assets/laptop450x326.jpg" alt="laptop">  
+      </div>
+      <article class="grid-item grid-item-2">
+        <a href="#" class="news-link">The online ad market is in decline and it's dragging down tech giants with it</a>
+        <p class="date-header">01.08.2022</p>
+      </article>
+      <article class="grid-item grid-item-3">
+        <a href="#" class="news-link">The forest growing in the world's hottest sea</a>
+        <p class="date-header">02.08.2022</p>
+      </article>
+      <article class="grid-item grid-item-4">
+        <a href="#" class="news-link">Air conditioning is bad for the planet. Here are some possible solutions</a>
+        <p class="date-header">02.08.2022</p>
+      </article>
+    </div>
+
+  </header>
+    <div class="flex-headlines">
+      <h2 class="h-1">Opinion</h1>
+      <div></div>
+      <a href="#" class="view-all">View all</a>
+    </div>
+  </header> 
+  <div class="grid-container-headlines-2">
+    <article>
+      <img src="./assets/apple250.jpg" alt="apple products">
+      <h3>Apple news</h3>
+      <a href="#" class="news-link">Apple, the move to renewable energy, and why it matters</a>
+      <p class="date-header">01.08.2022</p>
+    </article>
+    <article>
+      <img src="./assets/sun250.jpg" alt="sun">
+      <h3>Astronomy</h3>
+      <a href="#" class="news-link">The sun is now more active than NASA predicted. It could be in it's strongest cycle since records began</a>
+      <p class="date-header">01.08.2022</p>
+    </article>
+    <article>
+      <img src="./assets/fiction250.jpg" alt="outer space">
+      <h3>Books</h3>
+      <a href="#" class="news-link">Fiction/The last white man by Mohsin Hamid review-a hypnotic race fable</a>
+      <p class="date-header">01.08.2022</p>
+    </article>
+  </div>
+
+
+
+
+  
 </body>
 
 </html>

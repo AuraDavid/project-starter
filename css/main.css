@@ -178,6 +178,49 @@ div.login > a {
     padding: 20px;
 }
 
+.sec-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.btn-sign-up {
+    background-color: #EBBC00;
+    border-radius: 10px;  
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.footer-li {
+    list-style-type: none;
+}
+
+.footer-list > li > a {
+    text-decoration: none;
+    
+}
+
+.footer-list > li {
+    list-style-type: none; 
+}
+
+.section {
+    text-decoration: none;
+}
+
+.sec-2 {
+    color: grey;
+}
+
+footer {
+    
+}
 
 
 

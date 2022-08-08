@@ -6,6 +6,8 @@ body {
     background-color: white;
     margin: 0;
     font-family: 'Merriweather', serif;
+    max-width: 1000px;
+    margin:auto;
 }
 
 .navigation {
@@ -16,6 +18,7 @@ body {
     align-items: center;
     flex-direction: row;
 }
+
 ul.nav-list {
     list-style-type: none;
     margin: 0;
@@ -50,6 +53,14 @@ div.login > a {
     font-weight: 400;
 }
 
+.h-2 {
+    color: #14285F;
+}
+
+.h-3 {
+    color: #14285F; 
+}
+
 .flex-headlines {
     display: flex;
     justify-content: space-between;
@@ -63,26 +74,86 @@ div.login > a {
 
 .grid-container-headlines {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
 }
 
 .news-link {
     text-decoration: none;
+    color: #14285F;
 }
 
-.grid-item-1 {
-    display: grid;
-    grid-row: 1 / span 3;
+.item-1 {
+    padding: 10px; 
 }
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 .date-header {
     color: #aeb2b8;
     font-size: 13px;
 }
 
-.grid-container-headlines-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.grid-item {
     padding: 10px;
 }
+
+.grid-container-headlines-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px; */
+}
+
+.view-all {
+    text-decoration: none;
+    color: #14285F;
+}
+
+.grid-container-headlines-3 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+
+.grid-container-right {
+    padding: 20px;
+}
+
+.grid-container-bottom {
+    padding: 20px;
+}
+
+.grid-container-headlines-4 {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.grid-container-headlines-5 {
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.asd {
+    object-fit: contain;
+
+}
+
+.grid-container-bottom {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container-headlines-6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
